@@ -316,4 +316,6 @@
             min-height: 40px; 
             left: 367px; 
         }
-    
+        .circular--square {
+                border-radius: 50%;
+        }
