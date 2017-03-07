@@ -8,67 +8,78 @@
 
     <style type="text/css" class="silex-style">
         @import url('//fonts.googleapis.com/css?family=Oswald:200,300');
-        
         /* define a style for Title, Headings and Normal texts */
+        
         .title,
         .heading1,
         .heading2,
         .heading3,
         .normal {
-          color: black;
-          font-family:'Oswald',sans-serif;
-          margin: 0;
-          font-weight: normal;
+            color: black;
+            font-family: 'Oswald', sans-serif;
+            margin: 0;
+            font-weight: normal;
         }
         /* force element height to be smaller than sections can be in silex */
+        
         .editable-style.small-height {
             min-height: 10px;
             height: 10px;
             max-height: 10px;
         }
         /* title style */
+        
         .title {
-          font-size: 60px;
-          color: rgb(73, 187, 204);
+            font-size: 60px;
+            color: rgb(73, 187, 204);
         }
+        
         .heading1 {
-          font-size: 24px;
+            font-size: 24px;
         }
+        
         .editable-style.right {
             left: initial;
             right: 0px;
         }
-        .grey-text .normal{
+        
+        .grey-text .normal {
             color: grey;
         }
-        .small-text .normal{
+        
+        .small-text .normal {
             color: grey;
             font-size: 10px;
         }
+        
         .product-details .heading1 {
-          color: rgb(73, 187, 204);
+            color: rgb(73, 187, 204);
         }
+        
         .product-details .heading3 {
-          color: white;
-          background-color: rgb(73, 187, 204);
-          float: right;
-          padding: 2px 25px;
+            color: white;
+            background-color: rgb(73, 187, 204);
+            float: right;
+            padding: 2px 25px;
         }
+        
         .in-front {
             z-index: 1000;
         }
-        .link-menu .normal{
+        
+        .link-menu .normal {
             padding-top: 5px;
             color: #000000;
         }
         /* animated colors widget
             https://github.com/silexlabs/Silex/issues/138
         */
+        
         .link-menu .page-link-active {
             background-color: rgb(73, 187, 204);
             transition: background-color 0.5s ease-in;
-        
         }
+        
         .link-menu .page-link-active .normal {
             color: #FFFFFF;
             transition: color 0.5s ease-in;
@@ -77,341 +88,425 @@
     <script type="text/javascript" class="silex-script"></script>
     <style class="silex-inline-styles" type="text/css">
         .silex-id-1436036524732-32 {
-            cursor: auto; 
-            background-color: rgb(255, 255, 255); 
+            cursor: auto;
+            background-color: rgb(255, 255, 255);
         }
+        
         .silex-id-1483130857943-13 {
-            top: 100px; 
-            left: NaNpx; 
-            background-color: rgba(180,229,232,1); 
+            top: 100px;
+            left: NaNpx;
+            background-color: rgba(180, 229, 232, 1);
         }
+        
         .silex-id-1483130857943-12 {
-            min-height: 20px; 
-            background-color: transparent; 
+            min-height: 20px;
+            background-color: transparent;
         }
+        
         .silex-id-1483130355289-7 {
-            top: 10px; 
-            left: 0px; 
+            top: 10px;
+            left: 0px;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483130355289-7 {
-            top: 70px; 
-            left: 0px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483130355289-7 {
+                top: 70px;
+                left: 0px;
+            }
         }
-        }.silex-id-1483130355289-6 {
-            min-height: 331px; 
-            background-color: transparent; 
+        
+        .silex-id-1483130355289-6 {
+            min-height: 331px;
+            background-color: transparent;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483130355289-6 {
-            min-height: 218px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483130355289-6 {
+                min-height: 218px;
+            }
         }
-        }.silex-id-1436036524531-30 {
-            width: 463px; 
-            top: 106px; 
-            left: 49px; 
-            background-color: transparent; 
-            min-height: 141px; 
+        
+        .silex-id-1436036524531-30 {
+            width: 463px;
+            top: 106px;
+            left: 49px;
+            background-color: transparent;
+            min-height: 141px;
         }
+        
         .silex-id-1436036524330-28 {
-            width: 329px; 
-            top: 21px; 
-            left: 123px; 
-            min-height: 108px; 
+            width: 329px;
+            top: 21px;
+            left: 123px;
+            min-height: 108px;
         }
+        
         .silex-id-1487394551091-4 {
-            min-height: 120px; 
-            width: 120px; 
-            top: 7px; 
-            left: 1px; 
+            min-height: 120px;
+            width: 120px;
+            top: 7px;
+            left: 1px;
         }
+        
         .silex-id-1487539135930-0 {
-            min-height: 120px; 
-            width: 120px; 
-            top: 7px; 
-            left: 1px; 
+            min-height: 120px;
+            width: 120px;
+            top: 7px;
+            left: 1px;
         }
+        
         .silex-id-1436036522119-6 {
-            width: 383px; 
-            top: 108px; 
-            left: 536px; 
-            background-color: transparent; 
-            min-height: 100px; 
+            width: 383px;
+            top: 108px;
+            left: 536px;
+            background-color: transparent;
+            min-height: 100px;
         }
+        
         .silex-id-1436036522018-5 {
-            width: 90px; 
-            top: 20px; 
-            left: 142px; 
-            min-height: 33px; 
+            width: 90px;
+            top: 20px;
+            left: 142px;
+            min-height: 33px;
         }
+        
         .silex-id-1436036521917-4 {
-            width: 90px; 
-            top: 20px; 
-            left: 238px; 
-            min-height: 33px; 
+            width: 90px;
+            top: 20px;
+            left: 238px;
+            min-height: 33px;
         }
+        
         .silex-id-1483131519736-31 {
-            top: 341px; 
-            left: 0px; 
+            top: 341px;
+            left: 0px;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131519736-31 {
-            top: 401px; 
-            left: 0px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131519736-31 {
+                top: 401px;
+                left: 0px;
+            }
         }
-        }.silex-id-1483131519736-30 {
-            min-height: 535px; 
-            background-color: transparent; 
+        
+        .silex-id-1483131519736-30 {
+            min-height: 535px;
+            background-color: transparent;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131519736-30 {
-            min-height: 415px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131519736-30 {
+                min-height: 415px;
+            }
         }
-        }.silex-id-1436036524230-27 {
-            width: 822px; 
-            top: 130px; 
-            left: 100px; 
-            min-height: 77px; 
+        
+        .silex-id-1436036524230-27 {
+            width: 822px;
+            top: 130px;
+            left: 100px;
+            min-height: 77px;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1436036524230-27 {
-            top: 137px; 
-            left: 11px; 
-            width: 421px; 
-            min-height: 372px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1436036524230-27 {
+                top: 137px;
+                left: 11px;
+                width: 421px;
+                min-height: 372px;
+            }
         }
-        }.silex-id-1487391107248-14 {
-            min-height: 50px; 
-            width: 700px; 
-            top: 44px; 
-            left: 106px; 
+        
+        .silex-id-1487391107248-14 {
+            min-height: 50px;
+            width: 700px;
+            top: 44px;
+            left: 106px;
         }
+        
         .silex-id-1487911454808-0 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 252px; 
-            left: 101px; 
+            min-height: 50px;
+            width: 106px;
+            top: 252px;
+            left: 101px;
         }
+        
         .silex-id-1487911876566-4 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 252px; 
-            left: 259px; 
+            min-height: 50px;
+            width: 106px;
+            top: 252px;
+            left: 259px;
         }
+        
         .silex-id-1487911950360-5 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 252px; 
-            left: 416px; 
+            min-height: 50px;
+            width: 106px;
+            top: 252px;
+            left: 416px;
         }
+        
         .silex-id-1487912004397-6 {
-            min-height: 50px; 
-            width: 120px; 
-            top: 252px; 
-            left: 575px; 
+            min-height: 50px;
+            width: 120px;
+            top: 252px;
+            left: 575px;
         }
+        
         .silex-id-1487912052846-7 {
-            min-height: 50px; 
-            width: 120px; 
-            top: 252px; 
-            left: 732px; 
+            min-height: 50px;
+            width: 120px;
+            top: 252px;
+            left: 732px;
         }
+        
         .silex-id-1488680321551-4 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 323px; 
-            left: 101px; 
+            min-height: 50px;
+            width: 106px;
+            top: 323px;
+            left: 101px;
         }
+        
         .silex-id-1488680333165-5 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 323px; 
-            left: 259px; 
+            min-height: 50px;
+            width: 106px;
+            top: 323px;
+            left: 259px;
         }
+        
         .silex-id-1488680337779-6 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 322px; 
-            left: 417px; 
+            min-height: 50px;
+            width: 106px;
+            top: 322px;
+            left: 417px;
         }
+        
         .silex-id-1488680341749-7 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 322px; 
-            left: 575px; 
+            min-height: 50px;
+            width: 106px;
+            top: 322px;
+            left: 575px;
         }
+        
         .silex-id-1488680345617-8 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 322px; 
-            left: 733px; 
+            min-height: 50px;
+            width: 106px;
+            top: 322px;
+            left: 733px;
         }
+        
         .silex-id-1488680357240-9 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 397px; 
-            left: 101px; 
+            min-height: 50px;
+            width: 106px;
+            top: 397px;
+            left: 101px;
         }
+        
         .silex-id-1488680361168-10 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 395px; 
-            left: 260px; 
+            min-height: 50px;
+            width: 106px;
+            top: 395px;
+            left: 260px;
         }
+        
         .silex-id-1488680365435-11 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 392px; 
-            left: 416px; 
+            min-height: 50px;
+            width: 106px;
+            top: 392px;
+            left: 416px;
         }
+        
         .silex-id-1488680369372-12 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 392px; 
-            left: 575px; 
+            min-height: 50px;
+            width: 106px;
+            top: 392px;
+            left: 575px;
         }
+        
         .silex-id-1488680373444-13 {
-            min-height: 50px; 
-            width: 106px; 
-            top: 394px; 
-            left: 732px; 
+            min-height: 50px;
+            width: 106px;
+            top: 394px;
+            left: 732px;
         }
+        
         .silex-id-1488680144853-1 {
-            top: 1006px; 
-            left: 0px; 
+            top: 1006px;
+            left: 0px;
         }
+        
         .silex-id-1488680144851-0 {
-            min-height: 405px; 
-            background-color: rgb(255, 255, 255); 
+            min-height: 405px;
+            background-color: rgb(255, 255, 255);
         }
+        
         .silex-id-1488680184769-2 {
-            width: 835px; 
-            top: 70px; 
-            left: 46px; 
-            min-height: 311px; 
+            width: 835px;
+            top: 70px;
+            left: 46px;
+            min-height: 311px;
         }
+        
         .silex-id-1488680184800-3 {
-            width: 978px; 
-            top: 22px; 
-            left: 1px; 
-            min-height: 26px; 
+            width: 978px;
+            top: 22px;
+            left: 1px;
+            min-height: 26px;
         }
+        
         .silex-id-1483131410736-25 {
-            top: 259px; 
-            left: NaNpx; 
+            top: 259px;
+            left: NaNpx;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131410736-25 {
-            top: 401px; 
-            left: 0px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131410736-25 {
+                top: 401px;
+                left: 0px;
+            }
         }
-        }.silex-id-1483131410737-26 {
-            min-height: 525px; 
-            background-color: transparent; 
+        
+        .silex-id-1483131410737-26 {
+            min-height: 525px;
+            background-color: transparent;
         }
-        @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){.silex-id-1483131410737-26 {
-            top: 0px; 
-            left: 12px; 
-            width: 445px; 
-            min-height: 791px; 
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1483131410737-26 {
+                top: 0px;
+                left: 12px;
+                width: 445px;
+                min-height: 791px;
+            }
         }
-        }.silex-id-1436036521716-2 {
-            width: 808px; 
-            top: 37px; 
-            left: 86px; 
-            min-height: 366px; 
+        
+        .silex-id-1436036521716-2 {
+            width: 808px;
+            top: 37px;
+            left: 86px;
+            min-height: 366px;
         }
+        
         .silex-id-1487906103069-1 {
-            top: 1006px; 
-            left: 0px; 
+            top: 1006px;
+            left: 0px;
         }
+        
         .silex-id-1487906103068-0 {
-            min-height: 594px; 
-            background-color: rgb(255, 255, 255); 
+            min-height: 594px;
+            background-color: rgb(255, 255, 255);
         }
+        
         .silex-id-1487906132976-3 {
-            width: 475px; 
-            top: 70px; 
-            left: 46px; 
-            min-height: 247px; 
+            width: 475px;
+            top: 70px;
+            left: 46px;
+            min-height: 247px;
         }
+        
         .silex-id-1487906132946-2 {
-            width: 978px; 
-            top: 22px; 
-            left: 1px; 
-            min-height: 26px; 
+            width: 978px;
+            top: 22px;
+            left: 1px;
+            min-height: 26px;
         }
+        
         .silex-id-1487972465793-0 {
-            min-height: 256px; 
-            width: 338px; 
-            top: 62px; 
-            left: 550px; 
+            min-height: 256px;
+            width: 338px;
+            top: 62px;
+            left: 550px;
         }
+        
         .silex-id-1487972581109-1 {
-            min-height: 256px; 
-            width: 338px; 
-            top: 323px; 
-            left: 550px; 
+            min-height: 256px;
+            width: 338px;
+            top: 323px;
+            left: 550px;
         }
+        
         .silex-id-1487542525806-9 {
-            top: 670px; 
-            left: 0px; 
+            top: 670px;
+            left: 0px;
         }
+        
         .silex-id-1487542525805-8 {
-            min-height: 444px; 
-            background-color: rgb(255, 255, 255); 
+            min-height: 444px;
+            background-color: rgb(255, 255, 255);
         }
+        
         .silex-id-1487542550395-10 {
-            width: 978px; 
-            top: 22px; 
-            left: 1px; 
-            min-height: 26px; 
+            width: 978px;
+            top: 22px;
+            left: 1px;
+            min-height: 26px;
         }
+        
         .silex-id-1487542794041-13 {
-            width: 875px; 
-            top: 69px; 
-            left: 46px; 
-            min-height: 247px; 
+            width: 875px;
+            top: 69px;
+            left: 46px;
+            min-height: 247px;
         }
+        
         .silex-id-1487540108762-2 {
-            top: 1114px; 
-            left: 0px; 
+            top: 1114px;
+            left: 0px;
         }
+        
         .silex-id-1487540108761-1 {
-            min-height: 897px; 
-            background-color: rgb(255, 255, 255); 
+            min-height: 897px;
+            background-color: rgb(255, 255, 255);
         }
+        
         .silex-id-1487706011679-1 {
-            width: 978px; 
-            top: 22px; 
-            left: 1px; 
-            min-height: 26px; 
+            width: 978px;
+            top: 22px;
+            left: 1px;
+            min-height: 26px;
         }
+        
         .silex-id-1487706011702-2 {
-            min-height: 368px; 
-            width: 368px; 
-            top: 76px; 
-            left: 46px; 
+            min-height: 368px;
+            width: 368px;
+            top: 76px;
+            left: 46px;
         }
+        
         .silex-id-1487705982788-0 {
-            left: 428px; 
-            top: 76px; 
-            width: 546px; 
-            min-height: 381px; 
+            left: 428px;
+            top: 76px;
+            width: 546px;
+            min-height: 381px;
         }
+        
         .silex-id-1487706011706-3 {
-            width: 852px; 
-            top: 507px; 
-            left: 71px; 
-            min-height: 214px; 
+            width: 852px;
+            top: 507px;
+            left: 71px;
+            min-height: 214px;
         }
+        
         .silex-id-1483130400381-10 {
-            top: 2236px; 
-            left: 0px; 
+            top: 2236px;
+            left: 0px;
         }
+        
         .silex-id-1483130400382-11 {
-            min-height: 82px; 
-            background-color: transparent; 
+            min-height: 82px;
+            background-color: transparent;
         }
+        
         .silex-id-1436036522220-7 {
-            width: 238px; 
-            top: 17px; 
-            min-height: 40px; 
-            left: 367px; 
+            width: 238px;
+            top: 17px;
+            min-height: 40px;
+            left: 367px;
         }
     </style>
 
@@ -439,11 +534,14 @@
     <style type="text/css" class="silex-style-settings">
         .website-width {
             width: 980px;
-          }
-          .website-min-width {
+        }
+        
+        .website-min-width {
             min-width: 1280px;
-          }
+        }
     </style>
+
+
 
 
 
@@ -562,7 +660,9 @@
 
 
     <style id="current-page-style">
-        .page-home{display:inherit; }
+        .page-home {
+            display: inherit;
+        }
     </style>
     <!-- Silex HEAD tag do not remove -->
     <!-- End of Silex HEAD tag do not remove -->
@@ -605,8 +705,12 @@
         <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1483131519736-30 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1483131519736-30">
             <div data-silex-type="text" class="editable-style text-element silex-id-1436036524230-27" data-silex-id="silex-id-1436036524230-27">
                 <div class="silex-element-content normal">
-                    <p class="normal"><font size="5">Spring 2017, Wed 2-5pm + Lab <br></font></p>
-                    <p class="normal"><font size="5">Class Website: <a href="//howtodesign.mit.edu/" target="_blank">howtodesign.mit.edu</a></font></p>
+                    <p class="normal">
+                        <font size="5">Spring 2017, Wed 2-5pm + Lab <br></font>
+                    </p>
+                    <p class="normal">
+                        <font size="5">Class Website: <a href="//howtodesign.mit.edu/" target="_blank">howtodesign.mit.edu</a></font>
+                    </p>
                 </div>
             </div>
 
@@ -621,108 +725,150 @@
 
             <div data-silex-type="text" class="editable-style silex-id-1487911454808-0 text-element" data-silex-id="silex-id-1487911454808-0" style="">
                 <div class="silex-element-content normal">Week 0:
-                    <div><font size="2">Introduction</font></div>
+                    <div>
+                        <font size="2">Introduction</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1487911876566-4" data-silex-id="silex-id-1487911876566-4" style="">
                 <div class="silex-element-content normal"><a href="https://jehkim.github.io/howtodesign/Slider_20170222_v5.html" target="_blank">Week 1:                    </a>
-                    <div><font size="2">Culture+Context</font></div>
+                    <div>
+                        <font size="2">Culture+Context</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1487911950360-5" data-silex-id="silex-id-1487911950360-5" style="">
                 <div class="silex-element-content normal"><a href="https://jehkim.github.io/howtodesign/week2.html" target="_blank">Week 2:                    </a>
-                    <div><font size="2">Seeing</font></div>
+                    <div>
+                        <font size="2">Seeing</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1487912004397-6" data-silex-id="silex-id-1487912004397-6" style="">
                 <div class="silex-element-content normal"><a href="https://jehkim.github.io/howtodesign/week3_sketch.html" target="_blank">Week 3:</a>
 
-                    <div><font size="2">Concepts+Idea Generation</font></div>
+                    <div>
+                        <font size="2">Concepts+Idea Generation</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1487912052846-7" data-silex-id="silex-id-1487912052846-7" style="">
                 <div class="silex-element-content normal"><span style="background-color: rgb(255, 255, 255);"><font color="#999999">Week 4:
                     
                     </font></span>
-                    <div><font style="background-color: rgb(255, 255, 255);" color="#999999" size="2">Design Process/Tools</font></div>
+                    <div>
+                        <font style="background-color: rgb(255, 255, 255);" size="2" color="#999999">Design Process/Tools</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1488680321551-4" data-silex-id="silex-id-1488680321551-4" style="">
-                <div class="silex-element-content normal"><font color="#999999">Week 5:</font>
-                    <div><font size="2" color="#999999">Iteration vs. Evolution</font></div>
+                <div class="silex-element-content normal">
+                    <font color="#999999">Week 5:</font>
+                    <div>
+                        <font size="2" color="#999999">Iteration vs. Evolution</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1488680333165-5" data-silex-id="silex-id-1488680333165-5" style="">
-                <div class="silex-element-content normal"><font color="#999999">Week 6:
+                <div class="silex-element-content normal">
+                    <font color="#999999">Week 6:
                     </font>
-                    <div><font size="2" color="#999999">Constraints</font></div>
+                    <div>
+                        <font size="2" color="#999999">Constraints</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1488680337779-6" data-silex-id="silex-id-1488680337779-6" style="">
-                <div class="silex-element-content normal"><font color="#999999">Week 7:
+                <div class="silex-element-content normal">
+                    <font color="#999999">Week 7:
                     </font>
-                    <div><font size="2" color="#999999">Break</font></div>
+                    <div>
+                        <font size="2" color="#999999">Break</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1488680341749-7" data-silex-id="silex-id-1488680341749-7" style="">
-                <div class="silex-element-content normal"><font color="#999999">Week 8:
+                <div class="silex-element-content normal">
+                    <font color="#999999">Week 8:
                     </font>
-                    <div><font size="2" color="#999999">Failure</font></div>
+                    <div>
+                        <font size="2" color="#999999">Failure</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1488680345617-8" data-silex-id="silex-id-1488680345617-8" style="">
-                <div class="silex-element-content normal"><font color="#999999">Week 9:
+                <div class="silex-element-content normal">
+                    <font color="#999999">Week 9:
                     </font>
-                    <div><font size="2" color="#999999">Collaboration</font></div>
+                    <div>
+                        <font size="2" color="#999999">Collaboration</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1488680357240-9" data-silex-id="silex-id-1488680357240-9" style="">
-                <div class="silex-element-content normal"><font color="#999999">Week 10:
+                <div class="silex-element-content normal">
+                    <font color="#999999">Week 10:
                     </font>
-                    <div><font size="2" color="#999999">Stories/Narrative</font></div>
+                    <div>
+                        <font size="2" color="#999999">Stories/Narrative</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1488680361168-10" data-silex-id="silex-id-1488680361168-10" style="">
-                <div class="silex-element-content normal"><font color="#999999">Week 11:
+                <div class="silex-element-content normal">
+                    <font color="#999999">Week 11:
                     </font>
-                    <div><font size="2" color="#999999">Performance</font></div>
+                    <div>
+                        <font size="2" color="#999999">Performance</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1488680365435-11" data-silex-id="silex-id-1488680365435-11" style="">
-                <div class="silex-element-content normal"><font color="#999999">Week 12:
+                <div class="silex-element-content normal">
+                    <font color="#999999">Week 12:
                     </font>
-                    <div><font size="2" color="#999999">Scalability</font></div>
+                    <div>
+                        <font size="2" color="#999999">Scalability</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1488680369372-12" data-silex-id="silex-id-1488680369372-12" style="">
-                <div class="silex-element-content normal"><font color="#999999">Week 13:
+                <div class="silex-element-content normal">
+                    <font color="#999999">Week 13:
                     </font>
-                    <div><font size="2" color="#999999">Future Trends</font></div>
+                    <div>
+                        <font size="2" color="#999999">Future Trends</font>
+                    </div>
                 </div>
             </div>
             <div data-silex-type="text" class="editable-style text-element silex-id-1488680373444-13" data-silex-id="silex-id-1488680373444-13" style="">
-                <div class="silex-element-content normal"><font color="#999999">Week 14:
+                <div class="silex-element-content normal">
+                    <font color="#999999">Week 14:
                     </font>
-                    <div><font size="2" color="#999999">Final Review</font></div>
+                    <div>
+                        <font size="2" color="#999999">Final Review</font>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div data-silex-type="container" class="prevent-draggable container-element website-min-width editable-style silex-id-1488680144853-1 section-element page-home paged-element" data-silex-id="silex-id-1488680144853-1">
+    <div data-silex-type="container" class="prevent-draggable container-element website-min-width editable-style silex-id-1488680144853-1 section-element page-home paged-element" data-silex-id="silex-id-1488680144853-1" style="">
         <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1488680144851-0 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1488680144851-0">
             <div data-silex-type="text" class="editable-style text-element product-details silex-id-1488680184769-2" data-silex-id="silex-id-1488680184769-2" style="">
                 <div class="silex-element-content normal">
-                    <h1 class="heading1"><font size="6">Week 3: Concepts + Idea Generation</font></h1>
+                    <h1 class="heading1">
+                        <font size="6">Week 3: Concepts + Idea Generation</font>
+                    </h1>
                     <div>
                         <br>
                     </div>
                     <div>
                         <p class="normal">&nbsp; &nbsp; Sketch Lab in class with&nbsp;<b>Akshay Sharma,</b> who taught students in Virginia Tech -&nbsp;Look at 'form' in isolation to figure out transformation. He talked about sketching&nbsp;axis and flow, rotation of form,
-                            beautifully designed sculptures . He also introduced sketch tools in AutoDesk's SketchBook Pro and <a href="http://www.autodesk.com/products/fusion-360/overview" target="_blank"><b>FUSION 360</b></a> that are able to generate form quickly.
-                            Concept generation for product design and design visualization can be delivered by using the tools. A simple tutorial and rendering capabilities of FUSION 360 were also introduced. Another emphasis in class was his hand sketching&nbsp;techniques
-                            -&nbsp;chicken&nbsp;scratch, drawing lines for&nbsp;plane of perspective and add thickness, volumes for constructing anything.&nbsp;Followed by students' assignment review with staff, <a href="http://www.axelschmid.com/1-0-home.html" target="_blank"><b>Axel Schmid</b></a>&nbsp;from&nbsp;
-                            <a
-                            href="https://www.ingo-maurer.com/en/" target="_blank">Ingo Maurer</a> offered a presentation via Skype, working on lighting fixture design and producing. &nbsp;&nbsp;</p>
+                            beautifully designed sculptures . He also introduced sketch tools in AutoDesk's SketchBook Pro and <a href="//www.autodesk.com/products/fusion-360/overview" target="_blank"><b>FUSION 360</b></a> that are able to generate form
+                            quickly. Concept generation for product design and design visualization can be delivered by using the tools. A simple tutorial and rendering capabilities of FUSION 360 were also introduced. Another emphasis in class was his
+                            hand sketching&nbsp;techniques -&nbsp;chicken&nbsp;scratch, drawing lines for&nbsp;plane of perspective and add thickness, volumes for constructing anything.&nbsp;Followed by students' assignment review with staff, <a href="http://www.axelschmid.com/1-0-home.html"
+                                target="_blank"><b>Axel Schmid</b></a>&nbsp;from&nbsp;
+                            <a href="https://www.ingo-maurer.com/en/" target="_blank">Ingo Maurer</a> offered a presentation via Skype, working on lighting fixture design and producing. &nbsp;&nbsp;</p>
                         <p class="normal">
                             <br>
                         </p>
@@ -784,7 +930,7 @@
 
     <div class="silex-pages">
         <div class="menu-button editable-style silex-id-hamburger-menu image-element page-page-1 paged-element prevent-draggable prevent-resizable" data-silex-id="silex-id-hamburger-menu" data-silex-type="image"><img class="silex-element-content" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII="
-            alt="open mobile menu"></div><a id="page-home" data-silex-type="page" class="page-element page-link-active">Home</a><a id="page-about" data-silex-type="page" class="page-element">about</a></div>
+                alt="open mobile menu"></div><a id="page-home" data-silex-type="page" class="page-element page-link-active">Home</a><a id="page-about" data-silex-type="page" class="page-element">about</a></div>
 
 
 
@@ -816,7 +962,16 @@
             <div data-silex-type="text" class="editable-style text-element product-details silex-id-1436036521716-2" data-silex-id="silex-id-1436036521716-2" style="">
                 <div class="silex-element-content normal">
                     <h1 class="heading1">About Me<br></h1>
-                    <h1 class="heading1"><div style="color: rgb(0, 0, 0); font-size: medium;"><br></div><div><p class="normal" style="color: rgb(0, 0, 0); font-size: medium;">At Philips Lighting Research North America, I work in overall development activities from LED lighting technology to various applications, i.e. direct-view lighting, indoor/outdoor, healthcare lighting, and so on.&nbsp; Involved in non-imaging optical system design, color analysis, LED module platform and product development in Philips Lighting. I have over 18 years of experience in industries, expertise in optical material, optical design and fabrications for LED illumination, display system and integrated optical devices.&nbsp;</p><p class="normal" style="color: rgb(0, 0, 0); font-size: medium;"><br></p><p class="normal" style="color: rgb(0, 0, 0); font-size: medium;"><br></p></div></h1>
+                    <h1 class="heading1">
+                        <div style="color: rgb(0, 0, 0); font-size: medium;"><br></div>
+                        <div>
+                            <p class="normal" style="color: rgb(0, 0, 0); font-size: medium;">At Philips Lighting Research North America, I work in overall development activities from LED lighting technology to various applications, i.e. direct-view lighting, indoor/outdoor, healthcare lighting, and so on.&nbsp; Involved
+                                in non-imaging optical system design, color analysis, LED module platform and product development in Philips Lighting. I have over 18 years of experience in industries, expertise in optical material, optical design and
+                                fabrications for LED illumination, display system and integrated optical devices.&nbsp;</p>
+                            <p class="normal" style="color: rgb(0, 0, 0); font-size: medium;"><br></p>
+                            <p class="normal" style="color: rgb(0, 0, 0); font-size: medium;"><br></p>
+                        </div>
+                    </h1>
                 </div>
             </div>
         </div>
@@ -922,7 +1077,9 @@
         <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1487906103068-0 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1487906103068-0">
             <div data-silex-type="text" class="editable-style text-element product-details silex-id-1487906132976-3" data-silex-id="silex-id-1487906132976-3" style="">
                 <div class="silex-element-content normal">
-                    <h1 class="heading1"><font size="6">Week 2: Seeing</font></h1>
+                    <h1 class="heading1">
+                        <font size="6">Week 2: Seeing</font>
+                    </h1>
                     <div>
                         <br>
                     </div>
@@ -960,7 +1117,9 @@
 
             <div data-silex-type="text" class="editable-style text-element product-details silex-id-1487542794041-13" data-silex-id="silex-id-1487542794041-13" style="">
                 <div class="silex-element-content normal">
-                    <h1 class="heading1"><font size="6">Freedom of Design for Function</font></h1>
+                    <h1 class="heading1">
+                        <font size="6">Freedom of Design for Function</font>
+                    </h1>
                     <div>
                         <br>
                     </div>
@@ -999,7 +1158,9 @@
             <div data-silex-type="image" class="editable-style image-element silex-id-1487706011702-2" data-silex-id="silex-id-1487706011702-2" style=""><img src="Photos/installation_view_olafur_eliasson_the_weather_project.jpg" class="silex-element-content"></div>
             <div data-silex-type="text" class="editable-style text-element product-details silex-id-1487705982788-0" data-silex-id="silex-id-1487705982788-0" style="">
                 <div class="silex-element-content normal">
-                    <h1 class="heading1"><font size="6">Introduction</font></h1>
+                    <h1 class="heading1">
+                        <font size="6">Introduction</font>
+                    </h1>
                     <div>
                         <br>
                     </div>
@@ -1053,12 +1214,15 @@
             <div data-silex-type="text" class="editable-style text-element full-width small-text silex-id-1436036522220-7" data-silex-id="silex-id-1436036522220-7">
                 <div class="silex-element-content normal">
                     <div style="text-align: center;"><a href="//silexlabs.github.io/silex-templates/" target="_blank">creative commons Silex templates</a> - inspired by&nbsp;<a href="//www.wix.com/website-template/view/html/750?utm_campaign=ct_general&amp;experiment_id=wixblog_pt_post"
-                        target="_blank">this wix template</a>&nbsp;- Silex Labs logo by&nbsp;@superwup
+                            target="_blank">this wix template</a>&nbsp;- Silex Labs logo by&nbsp;@superwup
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+
 
 
 
