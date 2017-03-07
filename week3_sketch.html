@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<title>week3:Concepts+Idea Generation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<head>
+<style>
+body {
+    background-color: rgb(0,0,0);
+}
+</style>
+</head>
+      
+<body>
+      <div>
+      <center>
+
+            <img class="mySlides2" src="https://jehkim.github.io/howtodesign/Photos/week3_sketch/Slide1.JPG" style="width:70%" align="middle">
+            <img class="mySlides2" src="https://jehkim.github.io/howtodesign/Photos/week3_sketch/Slide2.JPG" style="width:70%">
+            <img class="mySlides2" src="https://jehkim.github.io/howtodesign/Photos/week3_sketch/Slide3.JPG" style="width:70%"> 
+            <img class="mySlides2" src="https://jehkim.github.io/howtodesign/Photos/week3_sketch/Slide4.JPG" style="width:70%">
+            <img class="mySlides2" src="https://jehkim.github.io/howtodesign/Photos/week3_sketch/Slide5.JPG" style="width:70%">
+</center>
+
+      <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+      <a class="w3-btn-floating w3-display-right" onclick="plusDivs(+1)">&#10095;</a>
+      
+      </div>  
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+      
+      
+      
+</html>
